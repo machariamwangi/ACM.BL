@@ -35,35 +35,6 @@ namespace ACM.BL
             return isValid;
         }
 
-        /// <summary>
-        /// Retrieves one product
-        /// </summary>
-        /// <param name="productId"></param>
-        /// <returns></returns>
-        public Product Retrieve(int productId)
-        {
-            //code that retrieves the defined product
-
-            return new Product();
-        }
-        /// <summary>
-        /// Retrieve all products
-        /// </summary>
-        /// <returns></returns>
-        public List<Product> Retieve()
-        {
-            //code that retrieves all of the products
-            return new List<Product>();
-        }
-        /// <summary>
-        /// Saves the current product
-        /// </summary>
-        /// <returns></returns>
-        public bool Save()
-        {
-            //code that saves the defined product
-
-            return true;
-        }
+       
     }
 }

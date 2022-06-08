@@ -62,35 +62,5 @@ namespace ACM.BL
             return isValid;
         }
 
-        /// <summary>
-        /// Retrieves one customer
-        /// </summary>
-        /// <param name="customerId"></param>
-        /// <returns></returns>
-        public Customer Retrieve(int customerId)
-        {
-            //code that retrieves the defined customer
-
-            return new Customer();
-        }
-        /// <summary>
-        /// Retrieve all customers
-        /// </summary>
-        /// <returns></returns>
-        public List<Customer> Retieve()
-        {
-            //code that retrieves all of the customers
-            return new List<Customer>();
-        }
-        /// <summary>
-        /// Saves the current customer
-        /// </summary>
-        /// <returns></returns>
-        public bool Save()
-        {
-            //code that saves the defined customer
-
-            return true;
-        }
     }
 }
