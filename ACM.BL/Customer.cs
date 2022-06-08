@@ -10,7 +10,18 @@ namespace ACM.BL
 
         public string FullName 
         {
-            get { return LastName + "," + FisrtName; }
+            get {
+                string fullName = LastName;
+                if (!string.IsNullOrWhiteSpace(FisrtName))
+                {
+                    if (!string.IsNullOrWhiteSpace(fullName))
+                    {
+                        fullName += ", ";
+                    }
+                    fullName += FisrtName;
+                }
+                return fullName;
+               }
         }
         private string _lastName;
 
@@ -26,5 +37,6 @@ namespace ACM.BL
 
 
         }
+        public static int InstanceCount { get; set; }
     }
 }
